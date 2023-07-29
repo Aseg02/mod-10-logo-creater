@@ -1,7 +1,5 @@
-// Importing Triangle, Square, Circle classes from ./shapes.js
 const { Triangle, Square, Circle } = require("./shapes.js");
 
-// testing for a triangle 
 describe("Triangle test", () => {
   test("test for a triangle with a blue background", () => {
     const shape = new Triangle();
@@ -12,7 +10,6 @@ describe("Triangle test", () => {
   });
 });
 
-// testing for a square 
 describe("Square test", () => {
   test("test for a square with a purple background", () => {
     const shape = new Square();
@@ -23,7 +20,6 @@ describe("Square test", () => {
   });
 });
 
-// testing for a circle
 describe("Circle test", () => {
   test("test for a circle with a #ca00ca background", () => {
     const shape = new Circle();
